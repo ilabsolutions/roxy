@@ -1,0 +1,21 @@
+PATH
+  remote: .
+  specs:
+    roxy (0.2.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (0.9.6)
+    rspec (1.1.12)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  rake (~> 0.8)
+  roxy!
+  rspec (~> 1.1.4)
+
+BUNDLED WITH
+   2.2.15

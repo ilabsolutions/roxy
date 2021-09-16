@@ -1,11 +1,12 @@
-require File.join(File.dirname(__FILE__), *%w[abstract_spec])
+require_relative 'abstract_spec'
 
 describe "Proxy" do
   
   before(:each) do
     @owner = "String owner"
     @target = "String target"
-    @lambda_target = lambda { @target }
+    #yy@lambda_target = lambda { @target }
+    @lambda_target = Proc.new{ @target }
   end
 
   it "should properly evaluate a block-based target" do

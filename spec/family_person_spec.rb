@@ -1,4 +1,4 @@
-require File.join(File.dirname(__FILE__), *%w[abstract_spec])
+require_relative 'abstract_spec'
 
 describe "Whole family example" do
 

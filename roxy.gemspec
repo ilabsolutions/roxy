@@ -11,7 +11,6 @@ Gem::Specification.new do |s|
   
   
   s.authors  = ["Ryan Daigle"]
-  s.has_rdoc = true
   s.rdoc_options = ['--main', 'README.textile']
   s.rdoc_options << '--inline-source' << '--charset=UTF-8'
   s.extra_rdoc_files = ['README.textile', 'Rakefile', 'LICENSE', 'CHANGELOG']

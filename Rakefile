@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'rake'
-require 'rake/rdoctask'
+require 'rdoc/task'
 require 'spec/rake/spectask'
 
 desc 'Run the specs'
